@@ -1,0 +1,79 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+body{
+    display: flex;
+    overflow: hidden;
+    place-items: center;
+    font-family: sans-serif;
+    background: linear-gradient(to right,blue,rgb(85, 80, 235),rgb(151, 151, 226));
+}
+.card{
+    width: min(540px,90%);
+  margin: 10% auto;
+  padding: 20px;
+  border-radius: 2px;
+ background-color: rgba(245, 245, 245, 0.912);
+}
+h1{
+    text-align: center;
+    font-family: 'Times New Roman', Times, serif;
+}
+form{
+    display: flex;
+    flex-direction: column;
+    
+  
+}
+.input-item{
+   display: flex;
+   justify-content: space-between;
+   align-items: center;
+   flex-direction: column;
+}
+label{
+    width: 100%;
+ font-size: 20px;
+ margin: 20px;
+
+
+}
+input{
+background-color: transparent;
+width: 100%;
+font-size: 15px;
+font-weight: medium;
+padding-left: 10px;
+outline: none;
+border: none;
+border-bottom: 3px solid black;
+
+}
+select{
+    width: 100%;
+    cursor: pointer;
+    background-color: transparent;
+    padding: 10px;
+}
+button{
+  background-color: rgb(3, 3, 16);
+  outline: none;
+  border: none;
+  color: aliceblue;
+  border-radius: 5px;
+  padding: 15px;
+  font-size: 15px;
+  font-weight: bold;
+  cursor: pointer;
+
+}
+#calculate{
+    margin: 25px 0px 10px 0px;
+    background-color: rgb(13, 13, 103);
+}
+#calculate:hover{
+    background-color: rgb(44, 44, 168);
+
+}

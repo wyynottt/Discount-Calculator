@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Discont Caclculator</title>
+</head>
+<link rel="stylesheet" href="style.css">
+
+<body>
+    <div class="card">
+
+<audio id="audio" src="money.mp3"></audio>
+        <h1>
+            Discont Caclculator
+        </h1>
+        <form action="#S">
+        <div class="input-item">
+            <label for="amount">Enter Bill Amount:</label>
+            <input type="text" id="amount" >
+        </div>
+           <div class="input-item">
+            <label for="discount-percentage">Select Discount %</label>
+            <select name="" id="discount-percentage">
+                <option value="0">0</option>
+                <option value="5">5</option>
+                <option value="10">10</option>
+                <option value="15">15</option>
+                <option value="20">20</option>
+                <option value="25">25</option>
+                <option value="50">50</option>
+            </select>
+        </div>
+        <div class="input-item">
+            <label for="discount-amount">Discont Amount:</label>
+            <input id="discount-amount" disabled type="text">
+        </div>
+        <div class="input-item">
+            <label for="pay"> Final pay:</label>
+            <input id="pay" disabled type="text">
+        </div>
+        <button type="button" id="calculate"> Calculate</button>
+        <button type="reset" id="reset" > Reset</button>
+    </form>
+    </div>
+    <script src="script.js"> </script>
+    
+</body>
+</html>
